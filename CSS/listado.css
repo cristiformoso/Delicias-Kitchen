@@ -1,0 +1,170 @@
+header{
+    display:flex;
+    justify-content: center;
+}
+
+header img{
+    margin-bottom: 20px;
+}
+
+ul{
+    color: grey;
+    display:flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.barraprincipal{
+    position: sticky;
+    top: 0px;
+    background-color: #fff5f8;
+    border-color: white;
+}
+
+.receta{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.receta_main{
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.receta_main_container{
+    display: flex;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #ffebe9;
+    max-width: 100%;
+    margin-left: 25%;
+    margin-right:10%;
+    margin-top: 20px;
+}
+
+.receta_img{
+    width: 40%;
+    height: 100%;
+}
+
+.receta_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 18px;
+}
+
+.receta_body{
+    width: 50%;
+    padding: 20px;
+    overflow: auto;
+}
+
+.alergenos{
+    display: flex;
+
+}
+
+.alergenos img{
+    width: 35px;
+    height: 35px;
+}
+
+.leer_mas{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leer_mas a{
+    text-decoration: none;
+    color: black;
+    padding: 18px;
+    border: 1px solid #dfaad3;
+    
+}
+
+.leer_mas a:hover{
+    transition: 0.2s;
+    background-color: pink;
+    color:white;
+    border-radius: 30px;
+    
+}
+
+.redessociales{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+
+}
+
+footer nav ul li{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.link{
+    color:white;
+    text-decoration: none;
+
+}
+
+.barra_paginas{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    margin: 35px;
+}
+
+.barra_paginas ul{
+    background-color: #ffc7da;
+    display: flex;
+    padding: 5px 1px;
+    border-radius: 50px;
+}
+
+.barra_paginas ul li{
+    list-style: none;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+.numero_pagina{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.barra_paginas ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-radius: 50%;
+    
+}
+
+.numero_pagina a:hover{
+    background-color: rgb(235, 116, 136);
+    color:black;
+    transition: 0.2s;
+}
+
+.pagina_actual a:hover{
+    background-color: rgb(235, 116, 136);
+    color:black;
+    transition: 0.2s;
+
+}
+
+.pagina_actual{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: rgb(235, 116, 136);
+
+}

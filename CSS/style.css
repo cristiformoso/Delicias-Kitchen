@@ -1,0 +1,147 @@
+header{
+    display:flex;
+    justify-content: center;
+}
+
+header img{
+    margin-bottom: 20px;
+}
+
+ul{
+    color: grey;
+    display:flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.barraprincipal{
+    position: sticky;
+    top: 0px;
+    background-color: #fff5f8;
+    border-color: white;
+}
+
+.recetas{
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap; 
+    width: 80%;   
+}
+.recetas article{
+    width: 45%;
+    text-align: justify;
+    margin-left: 5%;
+    padding-top: 20px;
+    
+}
+
+.imagenes{
+    max-width: 100%;
+    border-radius: 4%;
+}
+
+.recetas h3{
+    text-align: center;
+}
+
+li{
+    margin-right: 1%;
+    text-transform: uppercase;
+    color: black; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkenlace{
+    text-decoration: none;
+    color: black;
+}
+
+.linkenlace:hover{
+    color: #7ABA96;
+    
+}
+
+nav{
+    text-align: left;
+    border-top: 1px rgb(122, 110, 110) solid;
+    border-bottom: 1px rgb(122, 110, 110) solid;
+    
+}
+
+.bordespagina{
+    margin-left: 20%;
+    margin-right: 15%;
+    display: inline-flex;
+    
+}
+
+.sobremi{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 20%;
+    text-align: justify;
+    color: grey;
+    
+}
+                      
+
+.sobremi h1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sobremi img{
+    margin: auto;
+    display: block;
+    
+}
+.suscribeteamiblog{
+    background-color: #eeeeee;
+    color: black;
+    padding-top: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.suscribeteamiblog h3{
+    text-align: center;
+}
+
+.suscribeteamiblog h4{
+    text-align: center;
+    background-color: #7ABA96;
+    margin-left: -5px;
+    margin-right: -5px;
+    
+}
+
+.recetas h3 a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.fecha{
+    border-top: 1px #7ABA96 solid;
+    border-bottom: 1px #7ABA96 solid;
+    text-align: center;
+
+}
+
+.redessociales{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+
+}
+
+footer nav ul li{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.link{
+    color:white;
+    text-decoration: none;
+
+}
